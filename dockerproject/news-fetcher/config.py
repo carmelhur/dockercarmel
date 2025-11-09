@@ -1,0 +1,9 @@
+import os
+REDIS_HOST = os.getenv("REDIS_HOST")
+REDIS_PORT = int(os.getenv("REDIS_PORT"))
+REDIS_CHANNEL = os.getenv("REDIS_CHANNEL")
+NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
+NEWSAPI_COUNTRY = os.getenv("NEWSAPI_COUNTRY")
+NEWSAPI_PAGE_SIZE = int(os.getenv("NEWSAPI_PAGE_SIZE"))
+NEWSAPI_INTERVAL_SEC = int(os.getenv("NEWSAPI_INTERVAL_SEC"))
+NEWSAPI_URL = os.getenv("NEWSAPI_URL")
